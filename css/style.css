@@ -6,11 +6,11 @@ body{
     color: antiquewhite;
     font-family:"Chakra Petch", sans-serif;
     font-weight: bolder ;
-    background-image: url("../img/css-background.jpg");
+    background-image: url('../img/css-background.jpg');
     background-repeat:no-repeat; 
     background-size: cover;
     background-attachment: fixed;
-    cursor: url("../img/mousedesign.png"), auto;
+    cursor: url('../img/mousedesign.png'), auto;
 }
 
 header{
