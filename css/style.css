@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Handjet:wght@100..900&family=Irish+Grover&display=swap');
+
+body{
+    background-color: antiquewhite;
+    margin-top: 10%;
+    color: antiquewhite;
+    font-family:"Chakra Petch", sans-serif;
+    font-weight: bolder ;
+    background-image: url(/img/css-background.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+header{
+    text-align: center;
+}
+
+header h2{
+    margin-top: -50;
+    margin-bottom: 30;
+    margin-left: 37%;
+    font-size: 100pt;
+    text-shadow: rgba(255,162,0,0.9) 0px 0px 245px;
+}
+
+.heading{ 
+    margin-bottom: 1%;
+    margin-left: 37%;
+    border: 5px inset rgb(206, 23, 53);
+    display: inline-block;
+}
+
+
+h1{
+    color: antiquewhite;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+h2{
+    font-family: "Handjet", system-ui;
+    font-size: 40pt;
+    color: antiquewhite;
+}
+
+h6{
+    font-family: "Chakra Petch", sans-serif;
+    color:rgb(206, 23, 53);
+    background-color: rgb(250, 235, 215, 0.65);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15pt;
+    font-weight: lighter;
+}
+
+nav{
+    max-width: 25%;
+    padding: 3%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+main{
+    margin-left: 20%;
+    max-width: 75%;
+    padding: 3%;
+    margin-top: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   font-family: "Chakra Petch", sans-serif;
+}
+
+section{
+    text-align: center;
+    margin:2%;
+    padding: 3%;
+    border: 10px dotted rgb(250, 235, 215);
+    margin-top: 0;
+    border-radius: 45pt;
+}
+
+section img{
+    box-shadow: rgb(250, 235, 215) 0px 0px 52px;
+}
+
+section img:hover{
+   transform: scale(1.05);
+}
+
+.gif{
+    width: 150%;
+    height: auto;
+    max-width: 105%;
+    display: block;
+    margin-top: 10%;
+    position: static;
+}
+
+.friends{
+    border: 5px inset rgb(250, 235, 215);
+    text-align: center;
+    padding: 5%;
+    position: static;
+    background-color:rgb(206, 23, 53,0.45);
+    border-radius: 25pt;
+    text-shadow: rgb(250, 235, 215) 0px 0px 42px;
+    overflow-y: auto; /* Enable vertical scrolling for overflow content */
+    height: calc(50vh - 70px); 
+    box-sizing: border-box; 
+    margin: 10px; 
+}
