@@ -10,6 +10,7 @@ body{
     background-repeat:no-repeat; 
     background-size: cover;
     background-attachment: fixed;
+    cursor: url("../img/mousedesign.png"), auto;
 }
 
 header{
